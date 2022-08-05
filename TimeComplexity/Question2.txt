@@ -173,9 +173,7 @@ Q9.
 What is the time complexity of following code :
 
 for(int i = 0; i < n; i++){
-
     for(int j = i - 1; j >= 0; j++){
-
             ans += i + j ;
     }
 }
