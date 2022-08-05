@@ -2,7 +2,7 @@ package IntroductionToProblemSolving;
 
 import java.util.Scanner;
 
-public class IsItPerfect {
+public class Q2_IsItPerfect {
     public static void checkPerfectNumber(int A){
         int temp = A;
         int sum = 0;

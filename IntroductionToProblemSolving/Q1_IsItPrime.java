@@ -2,7 +2,7 @@ package IntroductionToProblemSolving;
 
 import java.util.Scanner;
 
-public class IsItPrime {
+public class Q1_IsItPrime {
   
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

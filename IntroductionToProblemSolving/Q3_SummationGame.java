@@ -2,7 +2,7 @@ package IntroductionToProblemSolving;
 
 import java.util.Scanner;
 
-public class SummationGame {
+public class Q3_SummationGame {
     public static void sumOfNaturalnumber(int N){
         int sum = 0;
         for(int i = 1; i<= N ; i++)
