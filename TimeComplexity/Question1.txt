@@ -1,0 +1,98 @@
+Q1.
+What is the time complexity of following code:
+ 
+int a = 0, i = N; 
+while (i > 0) { 
+    a += i; 
+    i /= 2; 
+}
+
+A) O(N)
+B) O(Sqrt(N))
+C) O(N / 2)
+D) O(log N)
+
+Ans- 
+D) We have to find the smallest x such that N / 2^x N
+x = log(N)
+
+Q2.
+The complexity of Binary search algorithm is
+
+A) O(n)
+B) O(log n)
+C) O(n^2)
+D) O(n log n)
+
+Ans - 
+B) O(Log n)
+
+Q3.
+If for an algorithm time complexity is given by O(1) then complexityof it is:
+
+A) constant
+B) polynomial
+C) exponential
+D) none of the mentioned
+
+Ans-
+A) The growth rate of that function will be constant.
+
+Q4.
+If for an algorithm time complexity is given by O(log2n) then complexity will:
+
+A) constant
+B) polynomial
+C) exponential
+D) none of the mentioned
+
+Ans-
+D) Non of the mentioned
+The growth rate of that function will be logarithmic therefore complexity will be logarithmic.
+
+Q5.
+If for an algorithm time complexity is given by O(n) then complexityof it is:
+
+A) constant
+B) linear
+C) exponential
+D) none of the mentioned
+
+Ans-
+B) linear
+Explanation: The growth rate of that function will be linear.
+
+Q6.
+If for an algorithm time complexity is given by O((3/2)^n) then complexity will:
+
+A) constant
+B) quardratic
+C) exponential
+D) none of the mentioned
+
+Ans- 
+C) exponential
+Explanation: The growth rate of that function will be exponential therefore complexity will be exponential.
+
+Q7.
+What is the Time Complexity of the below Code?
+
+public void solve(){
+    int i = 1;
+    while( i < n ){
+        int x = i;
+        while(x-- > 0){
+            //O(1) Operation
+        }
+        i++;
+    }
+}
+
+A) O(nlogn)
+B) O(n)
+C) O(n sqrt(n))
+D) O(n^2)
+E) None of the above
+
+Ans-
+D) O(n^2)
