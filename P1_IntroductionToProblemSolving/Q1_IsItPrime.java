@@ -9,6 +9,8 @@ public class Q1_IsItPrime {
         System.out.println("Enter number: ");
         int x = sc.nextInt();
         isPrime(x);
+
+        sc.close();
         
     }
     public static void isPrime(int A){
@@ -22,5 +24,6 @@ public class Q1_IsItPrime {
         else if(count == 1) System.out.println("YES");
         else System.out.println("NO");
     }
+    
 }
 

@@ -18,5 +18,7 @@ public class ArmstrongNumber {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         armstrtong(n);
+
+        sc.close();
     }
 }

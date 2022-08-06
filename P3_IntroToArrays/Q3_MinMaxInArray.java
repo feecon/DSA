@@ -25,6 +25,8 @@ public class Q3_MinMaxInArray {
 
         printMaxMinInArray(arr);
 
+        sc.close();
+
         
     }
 }

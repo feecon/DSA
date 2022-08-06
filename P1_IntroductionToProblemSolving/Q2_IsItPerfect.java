@@ -23,6 +23,7 @@ public class Q2_IsItPerfect {
             arr[i] = sc.nextInt();
         for(int i = 0; i<N ; i++)
             checkPerfectNumber(arr[i]);
-        
+            
+        sc.close();
     }
 }

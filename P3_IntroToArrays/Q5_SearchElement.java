@@ -25,5 +25,6 @@ public class Q5_SearchElement {
         int k = sc.nextInt();
         System.out.println(search(arr, k)); 
         }
+        sc.close();
     }
 }

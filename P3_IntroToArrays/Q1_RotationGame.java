@@ -38,5 +38,6 @@ public class Q1_RotationGame {
         for(int i=0;i<N;i++)
          System.out.print(arr[i]+" ");
         
+         sc.close();
     }
 }

@@ -29,6 +29,7 @@ public class Q9_SeparateOddEven {
 				System.out.print(even.get(k) + " ");
 			System.out.println();
 		}
+		sc.close();
 
 	}
 

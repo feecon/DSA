@@ -14,6 +14,8 @@ public class Q3_SummationGame {
         Scanner sc = new Scanner(System.in);
         int number = sc.nextInt();
         sumOfNaturalnumber(number);
+
+        sc.close();
         
     }
 }

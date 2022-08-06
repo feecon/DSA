@@ -13,6 +13,8 @@ public class Q6_MultiplicationTable {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         printMulTable(n);
+
+        sc.close();
         
     }
 }

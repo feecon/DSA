@@ -21,5 +21,7 @@ public class Q5_ArmstrongNumbers {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         armstrong(n);
+
+        sc.close();
     }
 }
