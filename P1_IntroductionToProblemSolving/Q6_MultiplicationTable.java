@@ -1,4 +1,4 @@
-package IntroductionToProblemSolving;
+package P1_IntroductionToProblemSolving;
 
 import java.util.Scanner;
 

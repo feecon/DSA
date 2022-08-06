@@ -1,4 +1,4 @@
-package IntroductionToProblemSolving;
+package P1_IntroductionToProblemSolving;
 
 public class Q4_SqrtOfNum {
     public static int squareRoot(int A) {
