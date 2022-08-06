@@ -1,0 +1,7 @@
+All the problems starts from package P1 to its subsequents.
+
+Added a package of General Purpose Programs - like loops, print array..etc
+
+The repo is constantly updated with new changes. Any new changes you can see with a new commit.
+
+HAPPY CODING!
