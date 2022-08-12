@@ -1,0 +1,48 @@
+Daily Routine -
+3 hours - 1 hr(theory) + 30 min breakk + 1 hr 30 mins (practical).
+
+Curriculum-
+1. DSA (4 weeks) - Beginer level 
+    - Intro to Problem solving
+    - Time complexity(2 sessions)
+    - Intro to Arrays
+    - Prefix sum Arrays
+    - Carryforward technique
+    - Sub Arrays
+    - 2D arrays(matrices)
+    - Interview type questions 
+    - Bit Manipulations (3 sessions)
+    - Mathematics- Modular arithmatic
+    - Sorting
+    - Strings
+    - Hashings
+    - Recursions
+    - Class and Objects (Language based topic)
+    - Linked list
+    - tree
+
+
+
+
+
+
+
+
+
+
+
+
+
+2. JAVA fundamentals (2 weeks)
+3. System Design (1 weeks)
+
+
+
+
+A =10;
+TEMP = A;
+
+FOR(I -->N-1){
+    A = A*10;
+    A =TEMP;
+}

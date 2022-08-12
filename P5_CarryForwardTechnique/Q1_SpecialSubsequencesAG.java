@@ -14,4 +14,10 @@ public class Q1_SpecialSubsequencesAG {
             //int mod = (int) (Math.pow(10,9) + 7);
             return ans;
         }
+
+        public static void main(String[] args) {
+            String str = "I Love Java";
+
+            System.out.println((str.charAt(0)+str.charAt(5)));
+        }
 }

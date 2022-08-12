@@ -9,6 +9,7 @@ public class Q1_IsItPrime {
         System.out.println("Enter number: ");
         int x = sc.nextInt();
         isPrime(x);
+        //System.out.println(Math.sqrt(24));
 
         sc.close();
         
