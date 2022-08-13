@@ -1,9 +1,10 @@
 package GeneralPurposePrograms;
 
+import java.util.Arrays;
 import java.util.HashSet;
 
 public class TwoSum2 {
-    static boolean twoSum(int ar[], int k){
+    static int[] twoSum(int ar[], int k){
 
         int n =ar.length;
         HashSet<Integer> hs = new HashSet<>();
@@ -12,16 +13,16 @@ public class TwoSum2 {
 
             int a = ar[i], b = k-a;
             if(hs.contains(b)){
-                return true;
+                return new int[]{a,b};
             }
             hs.add(a);
         }
-        return false;
+        return new int[]{};
     }
 
     public static void main(String[] args) {
         int ar[] = {7,2,3,-4,-1,2,3,8};
-        int k = 16;
-        System.out.println(twoSum(ar,k));
+        int k = 25;
+        System.out.println(Arrays.toString(twoSum(ar,k)));
     }
 }

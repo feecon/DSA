@@ -24,7 +24,6 @@ public class CountElements {
             System.out.println(entry.getKey()+" --> " + entry.getValue());
         }
 
-        ar = list.toArray(new int[map.size()]);
         return ar;
     }
 

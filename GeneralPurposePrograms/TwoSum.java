@@ -1,35 +1,39 @@
 package GeneralPurposePrograms;
 
+import java.util.Arrays;
 import java.util.HashMap;
 
 public class TwoSum {
-    static boolean solve(int ar[], int k){
+    static int[] solve(int ar[], int k){
+        int n = ar.length;
 
         HashMap<Integer,Integer> hm = new HashMap<>();
-        for (int i = 0; i < ar.length; i++) {
-            int freq = hm.getOrDefault(ar[i], 0);
-            hm.put(ar[i],freq+1);
+        for (int i = 0; i < n; i++) {
+            //int freq = hm.getOrDefault(ar[i], 0);
+            hm.put(ar[i], i);
         }
-        for (int i = 0; i < ar.length; i++) {
+        System.out.println(hm);
 
-            int a = ar[i];
-            int b = k - a;
+        // for (int i = 0; i < n; i++) {
 
-            if(hm.containsKey(b) && a!=b ) {
-                return true;
-            }
-            else if(a==b && hm.get(b) > 1){
-                return true;
-            }
+        //     int a = ar[i];
+        //     int b = k - a;
+
+        //     if(hm.containsKey(b) && a!=b ) {
+        //         return new int[]{hm.get(b),hm.get(a)};
+        //     }
+        //     else if(a==b && hm.get(b) > 1){
+        //         return new int[]{hm.get(b),hm.get(a)};
+        //     }
     
-        }
+        // }
 
-        return false;
+        return new int[]{};
     }
 
     public static void main(String[] args) {
-        int ar[] = {8,7,2,3,-4,-1,2,3,8};
-        int k = 16;
-        System.out.println(solve(ar,k));
+        int ar[] = {4,6};
+        int k = -3;
+        System.out.println(Arrays.toString(solve(ar,k)));
     }
 }
