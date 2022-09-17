@@ -1,47 +1,46 @@
+import java.util.ArrayList;
 
-import java.util.Arrays;
-import java.util.Stack;
- 
-class Solution
-{
-    // Find the next greater element for every array element
-    public static int[] findNextGreaterElements(int[] input)
-    {
-        // base case
-        if (input == null) {
-            return input;
-        }
- 
-        int[] result = new int[input.length];
-        Arrays.fill(result, -1);
- 
-        // create an empty stack
-        Stack<Character> s = new Stack<>();
- 
-        // do for each element
-        for (int i = 0; i < input.length; i++)
-        {
-            // loop till we have a greater element on top or stack becomes empty.
- 
-            // Keep popping elements from the stack smaller than the current
-            // element, and set their next greater element to the current element
- 
-            while (!s.isEmpty() && input[s.peek()] < input[i]) {
-                result[s.pop()] = input[i];
+/*Amazon -
+
+Given an array of size N having capital Aplhabets, the task is to find the next greater alphabet for each element of the array in order of their appearance in the array. Next greater aphabet of the elemnt in the array is the nearest alphabet on the right which is greater than the current alphabet as per the ASCII value.
+
+input - 
+N = 2, arr[] = ['A', 'C', 'D']
+
+output-
+'C' , 'D'
+
+input 2-
+N = 4, arr[] = ['A', 'C', 'B', 'D']
+
+output2-
+'C' , 'D', 'D'
+ */
+
+class Solution {
+
+    public static ArrayList<Character> solve(char arr[]) {
+        int n = arr.length;
+
+        ArrayList<Character> list = new ArrayList<>();
+        for (int i = 0; i < n; i++) {
+            for (int j = i + 1; j < n; j++) {
+                if (arr[j] > arr[i]) {
+                    list.add(arr[j]);
+                    break;
+                }
+
             }
- 
-            // push current "index" into the stack
-            s.push(i);
         }
- 
-        return result;
+        return list;
+
     }
- 
-    public static void main(String[] args)
-    {
-        int[] input = { 'A', 'B', 'C' };
- 
-        int[] result = findNextGreaterElements(input);
-        System.out.println(Arrays.toString(result));
+
+    public static void main(String[] args) {
+        char arr[] = { 'A', 'C', 'B', 'D' };
+
+        System.out.println(solve(arr));
+
     }
+
 }

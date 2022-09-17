@@ -1,4 +1,4 @@
-package ARRAYS.MATRIX;
+package ARRAYS;
 
 import java.util.ArrayList;
 //import java.util.Arrays;

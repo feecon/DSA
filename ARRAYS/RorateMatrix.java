@@ -1,4 +1,4 @@
-package ARRAYS.MATRIX;
+package ARRAYS;
 
 public class RorateMatrix {
     public static void solve(int[][] A) {

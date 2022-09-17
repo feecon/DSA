@@ -1,4 +1,4 @@
-package ARRAYS.MATRIX;
+package ARRAYS;
 
 public class Matrix {
 

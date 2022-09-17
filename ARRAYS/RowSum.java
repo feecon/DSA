@@ -1,4 +1,4 @@
-package ARRAYS.MATRIX;
+package ARRAYS;
 
 public class RowSum {
     public static void rowWiseSum(int mat[][]) {
